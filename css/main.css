@@ -1,0 +1,47 @@
+.title{
+text-align: center;
+font-family: 'Orbitron', sans-serif;
+}
+body{
+  background-color: yellow;
+}
+nav{
+margin-top: 1.4em;
+display:table;
+width: 100%;
+height:1.4em;
+border: none;
+}
+nav ul{
+display:table-row;
+}
+nav li{
+  display: table-cell;
+  margin:0;
+text-align: center;
+}
+nav li a {
+  display: block;
+  padding: .5em;
+  text-decoration:none;
+  font-weight: 1em;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  color: #000;
+}
+nav li a:hover{
+  background-color: green;
+  display: block;
+  /*border-radius: 100%;*/
+  #container{
+    width: 80%;
+    height: auto;
+    margin:0 auto;
+  }
+}
+.top1,.top2,.top3,.top4{
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 3%;
+}
